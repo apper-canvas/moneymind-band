@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "type": "expense",
+    "amount": 85.50,
+    "category": "Groceries",
+    "description": "Weekly grocery shopping",
+    "date": "2024-01-15T10:30:00Z",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "type": "expense",
+    "amount": 1200.00,
+    "category": "Rent",
+    "description": "January rent payment",
+    "date": "2024-01-01T09:00:00Z",
+    "createdAt": "2024-01-01T09:00:00Z"
+  },
+  {
+    "Id": 3,
+    "type": "income",
+    "amount": 3500.00,
+    "category": "Salary",
+    "description": "Monthly salary",
+    "date": "2024-01-01T00:00:00Z",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "type": "expense",
+    "amount": 45.20,
+    "category": "Transportation",
+    "description": "Gas station fill-up",
+    "date": "2024-01-14T16:45:00Z",
+    "createdAt": "2024-01-14T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "type": "expense",
+    "amount": 125.00,
+    "category": "Utilities",
+    "description": "Electricity bill",
+    "date": "2024-01-10T14:20:00Z",
+    "createdAt": "2024-01-10T14:20:00Z"
+  },
+  {
+    "Id": 6,
+    "type": "expense",
+    "amount": 28.75,
+    "category": "Entertainment",
+    "description": "Movie tickets",
+    "date": "2024-01-13T19:30:00Z",
+    "createdAt": "2024-01-13T19:30:00Z"
+  },
+  {
+    "Id": 7,
+    "type": "expense",
+    "amount": 67.30,
+    "category": "Groceries",
+    "description": "Midweek grocery run",
+    "date": "2024-01-12T11:15:00Z",
+    "createdAt": "2024-01-12T11:15:00Z"
+  },
+  {
+    "Id": 8,
+    "type": "expense",
+    "amount": 15.99,
+    "category": "Subscriptions",
+    "description": "Netflix subscription",
+    "date": "2024-01-11T08:00:00Z",
+    "createdAt": "2024-01-11T08:00:00Z"
+  },
+  {
+    "Id": 9,
+    "type": "expense",
+    "amount": 89.40,
+    "category": "Healthcare",
+    "description": "Pharmacy purchase",
+    "date": "2024-01-09T13:25:00Z",
+    "createdAt": "2024-01-09T13:25:00Z"
+  },
+  {
+    "Id": 10,
+    "type": "income",
+    "amount": 250.00,
+    "category": "Freelance",
+    "description": "Web design project",
+    "date": "2024-01-08T17:00:00Z",
+    "createdAt": "2024-01-08T17:00:00Z"
+  },
+  {
+    "Id": 11,
+    "type": "expense",
+    "amount": 42.80,
+    "category": "Dining Out",
+    "description": "Lunch with friends",
+    "date": "2024-01-07T12:30:00Z",
+    "createdAt": "2024-01-07T12:30:00Z"
+  },
+  {
+    "Id": 12,
+    "type": "expense",
+    "amount": 156.75,
+    "category": "Shopping",
+    "description": "Clothing purchase",
+    "date": "2024-01-06T15:45:00Z",
+    "createdAt": "2024-01-06T15:45:00Z"
+  }
+]

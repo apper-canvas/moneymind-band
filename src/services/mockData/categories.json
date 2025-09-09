@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "name": "Salary",
+    "type": "income",
+    "color": "#10b981",
+    "isDefault": true
+  },
+  {
+    "Id": 2,
+    "name": "Freelance",
+    "type": "income",
+    "color": "#06b6d4",
+    "isDefault": true
+  },
+  {
+    "Id": 3,
+    "name": "Investment",
+    "type": "income",
+    "color": "#8b5cf6",
+    "isDefault": true
+  },
+  {
+    "Id": 4,
+    "name": "Groceries",
+    "type": "expense",
+    "color": "#ef4444",
+    "isDefault": true
+  },
+  {
+    "Id": 5,
+    "name": "Transportation",
+    "type": "expense",
+    "color": "#f59e0b",
+    "isDefault": true
+  },
+  {
+    "Id": 6,
+    "name": "Utilities",
+    "type": "expense",
+    "color": "#3b82f6",
+    "isDefault": true
+  },
+  {
+    "Id": 7,
+    "name": "Entertainment",
+    "type": "expense",
+    "color": "#ec4899",
+    "isDefault": true
+  },
+  {
+    "Id": 8,
+    "name": "Healthcare",
+    "type": "expense",
+    "color": "#14b8a6",
+    "isDefault": true
+  },
+  {
+    "Id": 9,
+    "name": "Dining Out",
+    "type": "expense",
+    "color": "#f97316",
+    "isDefault": true
+  },
+  {
+    "Id": 10,
+    "name": "Shopping",
+    "type": "expense",
+    "color": "#a855f7",
+    "isDefault": true
+  },
+  {
+    "Id": 11,
+    "name": "Subscriptions",
+    "type": "expense",
+    "color": "#6366f1",
+    "isDefault": true
+  },
+  {
+    "Id": 12,
+    "name": "Rent",
+    "type": "expense",
+    "color": "#dc2626",
+    "isDefault": true
+  }
+]

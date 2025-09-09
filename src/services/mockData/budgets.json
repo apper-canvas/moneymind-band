@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "category": "Groceries",
+    "monthlyLimit": 400.00,
+    "currentSpent": 152.80,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 2,
+    "category": "Transportation",
+    "monthlyLimit": 200.00,
+    "currentSpent": 45.20,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 3,
+    "category": "Entertainment",
+    "monthlyLimit": 150.00,
+    "currentSpent": 28.75,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 4,
+    "category": "Dining Out",
+    "monthlyLimit": 200.00,
+    "currentSpent": 42.80,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 5,
+    "category": "Shopping",
+    "monthlyLimit": 300.00,
+    "currentSpent": 156.75,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 6,
+    "category": "Healthcare",
+    "monthlyLimit": 250.00,
+    "currentSpent": 89.40,
+    "month": "2024-01",
+    "year": 2024
+  },
+  {
+    "Id": 7,
+    "category": "Subscriptions",
+    "monthlyLimit": 50.00,
+    "currentSpent": 15.99,
+    "month": "2024-01",
+    "year": 2024
+  }
+]
