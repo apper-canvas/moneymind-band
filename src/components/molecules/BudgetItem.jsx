@@ -4,16 +4,35 @@ import Card from "@/components/atoms/Card"
 import ApperIcon from "@/components/ApperIcon"
 import { formatCurrency, formatPercentage } from "@/utils/formatters"
 
+const getAlertLevel = (percentage) => {
+  if (percentage >= 100) {
+    return {
+      type: 'critical',
+      colorClasses: 'bg-error text-white',
+      icon: 'AlertCircle',
+      message: 'Budget exceeded!'
+    }
+  } else if (percentage >= 80) {
+    return {
+      type: 'warning', 
+      colorClasses: 'bg-warning text-white',
+      icon: 'AlertTriangle',
+      message: 'Approaching limit'
+    }
+  }
+  return null
+}
+
 const BudgetItem = ({ 
   budget,
   onEdit,
   className,
   ...props 
 }) => {
-  const percentage = (budget.currentSpent / budget.monthlyLimit) * 100
+const percentage = (budget.currentSpent / budget.monthlyLimit) * 100
   const remaining = budget.monthlyLimit - budget.currentSpent
   const isOverBudget = percentage > 100
-  
+  const alert = getAlertLevel(percentage)
   const getCategoryIcon = (category) => {
     const iconMap = {
       "Groceries": "ShoppingCart",
@@ -62,6 +81,15 @@ const BudgetItem = ({
           >
             <ApperIcon name="Edit" className="w-4 h-4" />
           </button>
+        )}
+{alert && (
+          <div className={cn(
+            "inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs font-medium",
+            alert.colorClasses
+          )}>
+            <ApperIcon name={alert.icon} size={12} />
+            {alert.message}
+          </div>
         )}
       </div>
       
